@@ -9,6 +9,7 @@ import Button from './components/Button';
 import ButtonClass from './components/ButtonClass';
 import Warning from './components/Warning';
 import WarningClass from './components/WarningClass';
+import ListClass from './components/ListClass';
 import logo from './logo.svg';
 import './App.css';
 
@@ -32,6 +33,7 @@ function App() {
         <ButtonClass value />
         <Warning />
         <WarningClass />
+        <ListClass />
         <p>{text}</p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
